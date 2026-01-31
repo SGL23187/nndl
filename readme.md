@@ -66,8 +66,14 @@ git rebase origin/main
 ```
 - 将你的个人分支更新到最新的 `main` 分支，确保你的更改基于最新的代码。
 
-
-
+## uv环境配置
+如果没有安装uv环境，可以从tools文件夹下，把uv文件夹复制到你专门装环境的地方
+比如我是：`D:\2Environments\uv`
+然后保存环境变量：
+```powershell
+$env:UV_HOME="D:\2Environments\uv"
+$env:PATH="$env:UV_HOME\bin;$env:PATH"
+```
 
 
 
